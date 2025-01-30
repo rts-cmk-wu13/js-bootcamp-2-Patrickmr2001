@@ -6,3 +6,4 @@ buttons.forEach(button => {
         button.style.backgroundColor = 'lightblue';
     });
 });
+

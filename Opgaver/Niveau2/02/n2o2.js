@@ -11,3 +11,4 @@
         count++;
         countElement.textContent = count;
     });
+    

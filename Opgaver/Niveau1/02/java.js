@@ -7,4 +7,4 @@ add(100,10);
 
 let outerResult = add(100,10);
 
-console.log(outerResult)
+console.log(outerResult);
