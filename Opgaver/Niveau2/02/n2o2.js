@@ -1,14 +1,13 @@
-let count = 0;
-const countElement = document.getElementById("count");
 
-function increase() {
-    count++;
-    countElement.textContent = count;
-}
+    const countElement = document.getElementById('count');
+    let count = 0;
 
-function decrease() {
-    if (count > 0) {
+    document.getElementById('decrease').addEventListener('click', () => {
         count--;
         countElement.textContent = count;
-    }
-}
+    });
+
+    document.getElementById('increase').addEventListener('click', () => {
+        count++;
+        countElement.textContent = count;
+    });
