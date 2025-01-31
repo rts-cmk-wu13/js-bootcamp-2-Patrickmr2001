@@ -1,9 +1,10 @@
 const buttons = document.querySelectorAll('#buttons button');
 
-buttons.forEach(button => {
+buttons.forEach(function(button) {
     button.addEventListener('click', function () {
-        buttons.forEach(btn => btn.style.backgroundColor = '');
+        buttons.forEach(function(btn) {
+            btn.style.backgroundColor = '';
+        });
         button.style.backgroundColor = 'lightblue';
     });
 });
-

@@ -3,8 +3,8 @@ function add(x,y) {
     return result;
 }
 
-add(100,10);
+add(4,3);
 
-let outerResult = add(100,10);
+let result = add(4,3);
 
-console.log(outerResult);
+console.log(result);
